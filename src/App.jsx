@@ -84,7 +84,7 @@ function Header() {
       <div className="wrap header-row">
         <a className="logo" href="#top" onClick={close}>
           <span className="logo-mark" aria-hidden="true">K</span>
-          Kundan Kumar
+          Kundan Kumari
         </a>
         <button
           type="button"
@@ -135,7 +135,7 @@ function Hero() {
           <a className="result" href="#seo">
             <span className="rank">1</span>
             <span>
-              <small>Kundan Kumar › SEO</small>
+              <small>Kundan Kumari › SEO</small>
               <strong>SEO Services from ₹4,999</strong>
               <span className="snippet">On-page, local, technical and off-page SEO.</span>
             </span>
@@ -143,7 +143,7 @@ function Hero() {
           <a className="result" href="#course">
             <span className="rank">2</span>
             <span>
-              <small>Kundan Kumar › Course</small>
+              <small>Kundan Kumari › Course</small>
               <strong>Digital Marketing Course at ₹5,999</strong>
               <span className="snippet">Six practical modules for complete beginners.</span>
             </span>
@@ -372,7 +372,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="wrap footer-row">
-        <span>© {YEAR} Kundan Kumar</span>
+        <span>© {YEAR} Kundan Kumari</span>
         <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
       </div>
     </footer>
